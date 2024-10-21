@@ -45,4 +45,4 @@ print(f"список чисел , не кратных трем {not_three}")
 #цикл перебрра элементов для нахождения суммы 
 for s in not_three:
         sum+=s
-print(sum)
+print('Сумма равна',sum)
