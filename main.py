@@ -28,21 +28,21 @@ matrix = [[random.choice(elements) for i in range(size_w)] for j in range(size_h
 
 # Печать матрицы
 for i in range(size_h):
-     for j in range(size_w):
-      print(matrix[i][j], end=' ')
-     print()  # Переход на новую строку после каждой строки матрицы
+    for j in range(size_w):
+     print(matrix[i][j], end=' ')
+    print()  # Переход на новую строку после каждой строки матрицы
      
      
      
  #цикл перебора строк матрицы,затем каждого отдкльного элемента 
 for d in matrix:
-     for b in d:
-      if b %3 !=0 :
-       not_three.append(b)
+    for b in d:
+        if b %3 !=0 :
+         not_three.append(b)
 print(f"список чисел , не кратных трем {not_three}")
 
 
 #цикл перебрра элементов для нахождения суммы 
 for s in not_three:
-        sum+=s
+    sum+=s
 print('Сумма равна',sum)
